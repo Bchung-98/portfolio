@@ -6,17 +6,17 @@
         <a href="https://www.youtube.com/channel/UC4rtuyKaS4IMZ-cYpyFI-cg/featured?disable_polymer=true" target="_blank">
           <img src="~/assets/home/youtube.svg" alt="Youtube"></a>
         <a href="https://www.instagram.com/bryan_chg_/" target="_blank">
-          <img href="" src="~/assets/home/linkedin.svg" alt="Linkedin">
+          <img src="~/assets/home/instagram.svg" alt="Instagram">
         </a>
         <a href="https://www.linkedin.com/in/bryan-chung/" target="_blank">
-          <img src="~/assets/home/instagram.svg" alt="Instagram">
+          <img href="" src="~/assets/home/linkedin.svg" alt="Linkedin">
         </a>
         <a href="mailto:bchung@bryanchung.fr">
           <img src="~/assets/home/mail.svg" alt="Enveloppe">
         </a>
       </div>
     </div>
-    
+
     <scroll-down />
 
     <div class="skills">
@@ -44,10 +44,10 @@
     <div class="about">
       <h1>About</h1>
       <p>
-      Je suis un développeur front-end et designer français passionné par l'univers artistique depuis l'enfance. 
-      J’ai toujours aimé créer quelque soit le domaine : image, vidéo, site web… 
+      Je suis un développeur front-end et designer français passionné par l'univers artistique depuis l'enfance.
+      J’ai toujours aimé créer quelque soit le domaine : image, vidéo, site web…
       Actuellement diplômé d’un DUT MMI et étudiant à IIM,
-      je continue à développer mes compétences artistiques dans l’espoir d’exercer un métier dans la création 
+      je continue à développer mes compétences artistiques dans l’espoir d’exercer un métier dans la création
       et devenir un designer polyvalent.
       Je vous invite à regarder les divers projets que j'ai réalisé.
       </p>
@@ -83,7 +83,7 @@ export default {
   components: {
     ScrollDown,
   },
-  
+
   transition:{
     mode:"out-in",
     appear: true,
@@ -101,7 +101,7 @@ export default {
     },
     leave(el,done){
       const tl= new TimelineMax({onComplete : done})
-      
+
       tl.to('.name', 1, { opacity: 0 }, 0 )
       tl.to('.networks', 1, { opacity: 0 }, 0 )
       tl.to('.skills', 1, { opacity: 0 }, 0 )
