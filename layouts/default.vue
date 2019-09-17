@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar />
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 
@@ -9,41 +9,38 @@
 import Navbar from '~/components/Navbar.vue'
 
 export default {
-  components:{
+  components: {
     Navbar,
   },
 }
 </script>
 
-
 <style>
 @font-face {
-	font-family: 'Raleway';
-	src: url('~static/fonts/Raleway-Regular.ttf');
+  font-family: 'Raleway';
+  src: url('~static/fonts/Raleway-Regular.ttf');
 }
 
 @font-face {
-	font-family: 'Raleway-bold';
-	src: url('~static/fonts/Raleway-Bold.ttf');
+  font-family: 'Raleway-bold';
+  src: url('~static/fonts/Raleway-Bold.ttf');
 }
 
 @font-face {
-	font-family: 'Raleway-black';
-	src: url('~static/fonts/Raleway-Black.ttf');
+  font-family: 'Raleway-black';
+  src: url('~static/fonts/Raleway-Black.ttf');
 }
 
 html {
   font-family: "Raleway";
   color: white;
   background: black;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-  padding: 0px;
-  margin: 0px;
+body {
+  padding: 0;
+  margin: 0;
 }
-
 </style>
-
