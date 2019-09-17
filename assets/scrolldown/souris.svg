@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+   viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{display:none;}
+  .st0{fill:#FFFFFF;}
+  .st1{display:none;}
 </style>
 <path class="st0" d="M255.6,0C172.6,0,105,67.6,105,150.6v210.8c0,83,67.6,150.6,150.6,150.6s150.6-67.6,150.6-150.6V150.6
-	C406.2,67.6,338.6,0,255.6,0z M375.5,361.4c0,66.1-53.8,119.9-119.9,119.9s-119.9-53.8-119.9-119.9V150.6
-	c0-66.1,53.8-119.9,119.9-119.9s119.9,53.8,119.9,119.9V361.4z"/>
+  C406.2,67.6,338.6,0,255.6,0z M375.5,361.4c0,66.1-53.8,119.9-119.9,119.9s-119.9-53.8-119.9-119.9V150.6
+  c0-66.1,53.8-119.9,119.9-119.9s119.9,53.8,119.9,119.9V361.4z"/>
 <path class="st1" d="M255.6,101.9c-8.5,0-15.4,6.9-15.4,15.4v70.7c0,8.5,6.9,15.4,15.4,15.4c8.5,0,15.4-6.9,15.4-15.4v-70.7
-	C271,108.7,264.1,101.9,255.6,101.9z"/>
+  C271,108.7,264.1,101.9,255.6,101.9z"/>
 </svg>
